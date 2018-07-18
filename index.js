@@ -36,17 +36,8 @@ let coloredZebraStripes = zebraStripes.map((element, i, array) => {
   if(i%2 === 0) {
       return Object.assign({}, {width: element.width, color: 'black'});
   }
-  
+  else {
+    return Object.assign({}, {width: element.width, color: 'white'});
+  }
+
 });
-
-
-
-
-
-
-
-
-
-
-
-
