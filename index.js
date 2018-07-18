@@ -26,7 +26,7 @@ const zebraStripes = [
 
 let sortedRobots = robots.map ( (element) => {
   if(knownDecepticons.includes(element.name)) {
-    return Object.assign({}, {name: element.name, alliance: 'deception'});
+    return Object.assign({}, {name: element.name, alliance: 'decepticon'});
   }
   else
     return Object.assign({}, {name: element.name, alliance: 'autobot'});
